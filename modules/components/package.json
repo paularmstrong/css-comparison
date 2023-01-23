@@ -1,0 +1,5 @@
+{
+  "name": "components",
+  "main": "src/index.tsx",
+  "private": true
+}

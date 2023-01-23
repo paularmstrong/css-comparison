@@ -1,0 +1,15 @@
+{
+  "name": "test-repo",
+  "private": true,
+  "workspaces": [
+    "apps/*",
+    "modules/*"
+  ],
+  "scripts": {
+    "tsc": "tsc -p tsconfig.check.json"
+  },
+  "devDependencies": {
+    "typescript": "4.9.4"
+  },
+  "packageManager": "yarn@3.3.1"
+}

@@ -1,0 +1,18 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "composite": true,
+    "declaration": true,
+    "declarationMap": false,
+    "emitDeclarationOnly": true,
+    "incremental": true,
+    "noEmit": false
+  },
+  "exclude": ["**/dist", "**/*.test.ts", "**/*.test.tsx"],
+  "references": [
+    { "path": "./modules/theme-base" },
+    { "path": "./modules/theme-blue" },
+    { "path": "./apps/base" },
+    { "path": "./apps/blue" }
+  ]
+}
