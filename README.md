@@ -18,3 +18,7 @@ Run each app with different themes:
 yarn workspace base run start
 yarn workspace blue run start
 ```
+
+## TODO
+
+- [ ] Tailwind: different examples of how CSS doesn't get more complex or grow in size

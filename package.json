@@ -1,11 +1,13 @@
 {
-  "name": "test-repo",
+  "name": "@cssoptions/repo",
   "private": true,
   "workspaces": [
-    "apps/*",
-    "modules/*"
+    "tailwind/*",
+    "vanilla/*"
   ],
   "scripts": {
+    "prebuild": "find apps -name 'dist' -type d -delete",
+    "build": "yarn workspaces foreach -p run build",
     "tsc": "tsc -p tsconfig.check.json"
   },
   "devDependencies": {

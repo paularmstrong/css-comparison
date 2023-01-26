@@ -1,0 +1,8 @@
+{
+  "name": "@cssoptions/vanilla-theme-base",
+  "private": true,
+  "main": "./src/index.js",
+  "devDependencies": {
+    "tailwindcss": "3.2.4"
+  }
+}
