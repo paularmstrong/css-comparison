@@ -1,8 +1,9 @@
 {
-  "name": "@cssoptions/vanilla-components",
-  "main": "src/index.tsx",
-  "private": true,
-  "peerDependencies": {
-    "@cssoptions/vanilla-theme-base": "workspace:^"
-  }
+	"name": "@cssoptions/vanilla-components",
+	"main": "src/index.ts",
+	"private": true,
+	"peerDependencies": {
+		"@cssoptions/vanilla-theme-base": "workspace:^",
+		"@vanilla-extract/css": "^1.9.3"
+	}
 }

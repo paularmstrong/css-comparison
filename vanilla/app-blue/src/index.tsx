@@ -1,13 +1,14 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import "./index.css";
-import { Button } from "@cssoptions/tailwind-components";
+import { Button } from '@cssoptions/vanilla-components';
+import { themeClass } from '@cssoptions/vanilla-theme-blue';
+import { title } from './title.css';
 
-ReactDOM.createRoot(document.getElementById("root") as HTMLElement).render(
-  <React.StrictMode>
-    <h1 className="font-sans text-3xl font-bold text-primary-500">
-      hello base
-    </h1>
-    <Button>tacos</Button>
-  </React.StrictMode>
+ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
+	<React.StrictMode>
+		<div className={themeClass}>
+			<h1 className={title}>hello base</h1>
+			<Button>tacos</Button>
+		</div>
+	</React.StrictMode>
 );

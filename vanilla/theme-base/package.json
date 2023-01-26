@@ -1,8 +1,11 @@
 {
-  "name": "@cssoptions/vanilla-theme-base",
-  "private": true,
-  "main": "./src/index.js",
-  "devDependencies": {
-    "tailwindcss": "3.2.4"
-  }
+	"name": "@cssoptions/vanilla-theme-base",
+	"private": true,
+	"main": "./src/index.css.ts",
+	"devDependencies": {
+		"@vanilla-extract/css": "^1.9.3"
+	},
+	"dependencies": {
+		"vanilla-reset": "^2021.11.29"
+	}
 }

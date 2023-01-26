@@ -7620,13 +7620,19 @@ var m = reactDomExports;
   client.createRoot = m.createRoot;
   client.hydrateRoot = m.hydrateRoot;
 }
-const index = "";
+const index_css_ts_vanilla$1 = "";
+const index_css_ts_vanilla = "";
+const button_css_ts_vanilla = "";
+var buttonClassname = "_10jmmml0";
 function Button({ children }) {
-  return /* @__PURE__ */ jsxRuntimeExports.jsx("button", { className: "rounded bg-primary-800 text-white", children });
+  return /* @__PURE__ */ jsxRuntimeExports.jsx("button", { className: buttonClassname, children });
 }
+var themeClass = "_86iyfb0";
+const title_css_ts_vanilla = "";
+var title = "vt586q0";
 client.createRoot(document.getElementById("root")).render(
-  /* @__PURE__ */ jsxRuntimeExports.jsxs(React.StrictMode, { children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "font-sans text-3xl font-bold text-primary-500", children: "hello base" }),
+  /* @__PURE__ */ jsxRuntimeExports.jsx(React.StrictMode, { children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: themeClass, children: [
+    /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: title, children: "hello base" }),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Button, { children: "tacos" })
-  ] })
+  ] }) })
 );
