@@ -1,0 +1,30 @@
+*:not(canvas,iframe,img,svg,video,svg *,symbol *) {
+  all: unset;
+  display: revert;
+}
+*, *::before, *::after {
+  box-sizing: border-box;
+}._1pmstpu0 {
+  --_1pmstpu1: #f0fdfa;
+  --_1pmstpu2: #e3f1f7;
+  --_1pmstpu3: #ccfbf1;
+  --_1pmstpu4: #5eead4;
+  --_1pmstpu5: #2dd4bf;
+  --_1pmstpu6: #14b8a6;
+  --_1pmstpu7: #0d9488;
+  --_1pmstpu8: #0f766e;
+  --_1pmstpu9: #115e59;
+  --_1pmstpua: #134e4a;
+  --_1pmstpub: #fff;
+  --_1pmstpuc: #000;
+  --_1pmstpud: transparent;
+}._1387p2j0 {
+  border-radius: 0.4rem;
+  background-color: var(--_1pmstpu9);
+  color: var(--_1pmstpub);
+}.b8xj680 {
+  font-weight: bold;
+  font-size: 2.4rem;
+  font-family: sans-serif;
+  color: var(--_1pmstpu9);
+}

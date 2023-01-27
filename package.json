@@ -1,17 +1,19 @@
 {
-  "name": "@cssoptions/repo",
-  "private": true,
-  "workspaces": [
-    "tailwind/*",
-    "vanilla/*"
-  ],
-  "scripts": {
-    "prebuild": "find apps -name 'dist' -type d -delete",
-    "build": "yarn workspaces foreach -p run build",
-    "tsc": "tsc -p tsconfig.check.json"
-  },
-  "devDependencies": {
-    "typescript": "4.9.4"
-  },
-  "packageManager": "yarn@3.3.1"
+	"name": "@cssoptions/repo",
+	"private": true,
+	"workspaces": [
+		"styled/*",
+		"tailwind/*",
+		"uno/*",
+		"vanilla/*"
+	],
+	"scripts": {
+		"prebuild": "find apps -name 'dist' -type d -delete",
+		"build": "yarn workspaces foreach -p run build",
+		"tsc": "tsc -p tsconfig.check.json"
+	},
+	"devDependencies": {
+		"typescript": "4.9.4"
+	},
+	"packageManager": "yarn@3.3.1"
 }

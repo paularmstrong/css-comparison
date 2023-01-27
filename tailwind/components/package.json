@@ -1,8 +1,8 @@
 {
-  "name": "@cssoptions/tailwind-components",
-  "main": "src/index.tsx",
-  "private": true,
-  "peerDependencies": {
-    "@cssoptions/tailwind-theme-base": "workspace:^"
-  }
+	"name": "@tailwind/components",
+	"main": "src/index.tsx",
+	"private": true,
+	"peerDependencies": {
+		"@tailwind/theme-base": "workspace:^"
+	}
 }

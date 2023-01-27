@@ -1,5 +1,5 @@
 import { style } from '@vanilla-extract/css';
-import { theme } from '@cssoptions/vanilla-theme-base';
+import { theme } from '@vanilla/theme-base';
 
 export const title = style({
 	fontWeight: 'bold',

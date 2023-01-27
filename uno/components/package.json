@@ -1,0 +1,8 @@
+{
+	"name": "@uno/components",
+	"main": "src/index.tsx",
+	"private": true,
+	"peerDependencies": {
+		"@uno/theme-base": "workspace:^"
+	}
+}

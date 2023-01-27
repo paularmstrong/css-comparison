@@ -1,23 +1,25 @@
 {
-  "name": "@cssoptions/tailwind-app-blue",
-  "private": true,
-  "scripts": {
-    "build": "vite build",
-    "start": "vite --host"
-  },
-  "devDependencies": {
-    "@types/react": "^18.0.26",
-    "@types/react-dom": "^18.0.9",
-    "@vitejs/plugin-react-swc": "^3.0.0",
-    "autoprefixer": "10.4.13",
-    "postcss": "8.4.21",
-    "tailwindcss": "3.2.4",
-    "vite": "4.0.4"
-  },
-  "dependencies": {
-    "@cssoptions/tailwind-components": "workspace:^",
-    "@cssoptions/tailwind-theme-blue": "workspace:^",
-    "react": "18.2.0",
-    "react-dom": "18.2.0"
-  }
+	"name": "@tailwind/app-blue",
+	"private": true,
+	"scripts": {
+		"build": "vite build",
+		"postbuild": "vite-bundle-visualizer --no-open --output=dist/report.html",
+		"start": "vite --host"
+	},
+	"devDependencies": {
+		"@types/react": "^18.0.26",
+		"@types/react-dom": "^18.0.9",
+		"@vitejs/plugin-react-swc": "^3.0.0",
+		"autoprefixer": "10.4.13",
+		"postcss": "8.4.21",
+		"tailwindcss": "3.2.4",
+		"vite": "4.0.4",
+		"vite-bundle-visualizer": "^0.4.2"
+	},
+	"dependencies": {
+		"@tailwind/components": "workspace:^",
+		"@tailwind/theme-blue": "workspace:^",
+		"react": "18.2.0",
+		"react-dom": "18.2.0"
+	}
 }

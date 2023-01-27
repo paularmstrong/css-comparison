@@ -1,4 +1,4 @@
-import { theme } from '@cssoptions/vanilla-theme-base';
+import { theme } from '@vanilla/theme-base';
 import { style } from '@vanilla-extract/css';
 
 export const buttonClassname = style({

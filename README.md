@@ -15,10 +15,22 @@ yarn
 Run each app with different themes:
 
 ```
-yarn workspace base run start
-yarn workspace blue run start
+yarn workspace @tailwind/app-base run start
+yarn workspace @tailwind/app-blue run start
 ```
 
-## TODO
+Run all applications at once:
 
-- [ ] Tailwind: different examples of how CSS doesn't get more complex or grow in size
+```
+yarn workspaces foreach -pi run start
+```
+
+Build all applications:
+
+```
+# Builds to */app-*/dist/*
+yarn workspaces foreach -pi run build
+
+# Runs vite-bundle-analyzer
+yarn workspaces foreach -pi run postbuild
+```

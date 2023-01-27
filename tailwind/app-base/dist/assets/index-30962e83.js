@@ -7626,7 +7626,7 @@ function Button({ children }) {
 }
 client.createRoot(document.getElementById("root")).render(
   /* @__PURE__ */ jsxRuntimeExports.jsxs(React.StrictMode, { children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "font-sans text-3xl font-bold text-primary-500", children: "hello base" }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx(Button, { children: "tacos" })
+    /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "font-sans text-3xl font-bold text-primary-500", children: "Tailwind base theme" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(Button, { children: "button" })
   ] })
 );

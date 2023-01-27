@@ -7623,16 +7623,16 @@ var m = reactDomExports;
 const index_css_ts_vanilla$1 = "";
 const index_css_ts_vanilla = "";
 const button_css_ts_vanilla = "";
-var buttonClassname = "_10jmmml0";
+var buttonClassname = "_1387p2j0";
 function Button({ children }) {
   return /* @__PURE__ */ jsxRuntimeExports.jsx("button", { className: buttonClassname, children });
 }
-var themeClass = "_86iyfb0";
+var themeClass = "_1pmstpu0";
 const title_css_ts_vanilla = "";
-var title = "vt586q0";
+var title = "b8xj680";
 client.createRoot(document.getElementById("root")).render(
   /* @__PURE__ */ jsxRuntimeExports.jsx(React.StrictMode, { children: /* @__PURE__ */ jsxRuntimeExports.jsxs("div", { className: themeClass, children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: title, children: "hello base" }),
-    /* @__PURE__ */ jsxRuntimeExports.jsx(Button, { children: "tacos" })
+    /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: title, children: "Vanilla Extract base theme" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx(Button, { children: "button" })
   ] }) })
 );

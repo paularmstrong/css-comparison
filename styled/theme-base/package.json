@@ -1,0 +1,12 @@
+{
+	"name": "@styled/theme-base",
+	"private": true,
+	"main": "./src/index.ts",
+	"devDependencies": {
+		"@types/styled-components": "^5.1.26",
+		"styled-components": "^5.3.6"
+	},
+	"peerDependencies": {
+		"styled-components": "^5.3.6"
+	}
+}
