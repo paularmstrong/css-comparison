@@ -7624,9 +7624,10 @@ const index = "";
 function Button({ children }) {
   return /* @__PURE__ */ jsxRuntimeExports.jsx("button", { className: "rounded bg-primary-800 text-white", children });
 }
+const __uno = "";
 client.createRoot(document.getElementById("root")).render(
   /* @__PURE__ */ jsxRuntimeExports.jsxs(React.StrictMode, { children: [
-    /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "font-sans text-3xl font-bold text-primary-500", children: "Tailwind base theme" }),
+    /* @__PURE__ */ jsxRuntimeExports.jsx("h1", { className: "font-sans text-3xl font-bold text-primary-500", children: "Uno base theme" }),
     /* @__PURE__ */ jsxRuntimeExports.jsx(Button, { children: "button" })
   ] })
 );
