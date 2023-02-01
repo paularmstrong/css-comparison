@@ -1,3 +1,14 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@layer base {
+  *:not(canvas, iframe, img, svg, video, svg *, symbol *) {
+    all: unset;
+    display: revert;
+  }
+
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+}
